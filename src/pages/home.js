@@ -28,6 +28,7 @@ export default class Home extends Component {
       });
 
     this.getListKeranjang();
+
   }
   // componentDidUpdate(prevState) {
   //   if (this.state.keranjangs !== prevState.keranjangs) {
@@ -152,7 +153,7 @@ export default class Home extends Component {
                   ))}
               </Row>
             </Col>
-            <Hasil keranjangs={keranjangs} {...this.props} getListKeranjang={this.getListKeranjang}/>
+            <Hasil keranjangs={keranjangs} {...this.props} getListKeranjang={this.getListKeranjang} />
           </Row>
         </Container>
       </div>
